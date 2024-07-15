@@ -5,7 +5,6 @@ const QRPortalWeb = require('@bot-whatsapp/portal')
 const WsProvider = require('@bot-whatsapp/provider/baileys')
 const DBProvider = require('@bot-whatsapp/database/mock')
 
-
 let conexion = mysql.createConnection({
     host: "localhost",
     database:"datoswhatsapp",
